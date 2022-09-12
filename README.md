@@ -157,3 +157,5 @@ The procedure is as follows:
 2. Place your badge on the ``RFID`` reader
 3. Enter your PIN code on the system display on the secured door
 4. Open the door
+
+SO PIERRE NOBLE
