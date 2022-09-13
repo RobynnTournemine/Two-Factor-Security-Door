@@ -10,21 +10,34 @@ It is about a connected door that opens using a Raspberry Pi 4 B that will be co
 
 Table of Contents
 ------------------------
-  1. [My Hardware list](#my-hardware-list)
-  2. [My Software list](#my-software-list)
-  3. [Electronic schematic](#electronic-schematic)
-  4. [Software installation procedure](#software-installation-procedure)
+  1. [Installation](#installation)
+  2. [My Hardware list](#my-hardware-list)
+  3. [My Software list](#my-software-list)
+  4. [Electronic schematic](#electronic-schematic)
+  5. [Software installation procedure](#software-installation-procedure)
       - [Operating System](#operating-system)
       - [Activating SSH](#activating-ssh)
       - [Activating VNC](#activating-vnc)
-      - [Installing required Python packages](#installing-required-python-packages)
       - [Display and touchscreen setup](#display-and-touchscreen-setup)
       - [PhpMyAdmin setup](#phpmyadmin-setup)
       - [Adding a user in the phpMyAdmin DataBase](#adding-a-user-in-the-phpmyadmin-database)
       - [RFID reader setup](#rfid-reader-setup)
       - [Launching the script at startup](#launching-the-script-at-startup)
-  5. [Usage](#usage)
+  6. [Usage](#usage)
 
+
+Installation
+------------------------
+  Clone the repository
+  ```
+  git clone https://github.com/RoobyCH/Two-Factor-Security-Door/
+  ```
+  
+  Install all required packages with pip3
+  ```
+  cd Two-Factor-Security-Door/
+  pip3 install -r requirements.txt
+  ```
 
 My Hardware list
 ------------------------
@@ -80,10 +93,6 @@ Software installation procedure
   ```
   5. Install [`VNC viewer`](https://www.realvnc.com/en/connect/download/viewer/) on the remote workstation 
 
-### Installing required Python packages
-  ```
-  sudo pip3 install mfrc522 MySQL evdev twilio
-  ```
 
 ###  Display and touchscreen setup
   1. Comment out the driver ``dtoverlay=vc4-kms-v3d`` in the ``/boot/config.txt`` file
@@ -184,4 +193,4 @@ The procedure is as follows:
 
 
 ------------------------
-S/O to **@WarToky** who collaborate with me for this project and **@NoblePierre** who helped me to rewrite the code**
+S/O to [**@WarToky**](https://github.com/WarToky) who collaborate with me for this project and [**@NoblePierre**](https://github.com/NoblePierre) who helped me to do the Python code
