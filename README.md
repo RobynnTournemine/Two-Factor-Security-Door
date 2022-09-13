@@ -193,4 +193,4 @@ The procedure is as follows:
 
 
 ------------------------
-S/O to [**@WarToky**](https://github.com/WarToky) who collaborate with me for this project and [**@NoblePierre**](https://github.com/NoblePierre) who helped me to do the Python code
+S/O to [**@WarToky**](https://github.com/WarToky) with whom I collaborated for this project and [**@NoblePierre**](https://github.com/NoblePierre) who helped me to do the Python code
