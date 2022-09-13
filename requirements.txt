@@ -1,0 +1,4 @@
+mfrc522
+MySQL
+evdev
+twilio
