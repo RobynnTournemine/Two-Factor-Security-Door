@@ -30,7 +30,7 @@ Installation
 ------------------------
   Clone the repository
   ```
-  git clone https://github.com/RoobyCH/Two-Factor-Security-Door/
+  git clone https://github.com/RoobyCH/Two-Factor-Security-Door.git/
   ```
   
   Install all required packages with pip3
