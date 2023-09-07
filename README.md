@@ -49,7 +49,7 @@ My Hardware list
   - 32GB SD card
   - Keyboard/Mouse
   - A 12v power supply (for the electrical strike)
-  - A 5v power suplay (for the Raspberry Pi)
+  - A 5v power supply (for the Raspberry Pi)
 
 
 My Software list
